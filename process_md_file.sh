@@ -14,6 +14,6 @@ creationDate=$( git log --format="%ai" -- $fullpath | tail -1 | cut -f 1 -d ' ' 
 echo Processing: $fullpath
 
 rm $dirpath/$targetfile
-pandoc $fullpath -o $dirpath/$targetfile --standalone --css "./css/site.css" --css "./css/cv.css" --variable=lastUpdated:$lastUpdated --variable=creationDate:$creationDate
+pandoc $fullpath -o $dirpath/$targetfile --standalone --css "./site/css/site.css" --css "./site/css/cv.css" --variable=lastUpdated:$lastUpdated --variable=creationDate:$creationDate
 
 exit 0
