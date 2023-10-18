@@ -31,9 +31,9 @@
 
 <table class="banner-table" style="width:40%;">
     <tr>
-        <td><img src="/imgs/linkedin.svg" alt="LinkedIn"><a href="https://www.linkedin.com/in/blake-wilson-406a8256/"></a></td>
-        <td><img src="/imgs/envelope-solid.svg" alt="Email"> <a href="mailto:wilso692@purdue.edu"></a></td>
-        <td><img src="/imgs/github.svg" alt="GitHub"> <a href="https://www.github.com/btrainwilson"></a></td>
+        <td><a href="https://www.linkedin.com/in/blake-wilson-406a8256/"><img src="/imgs/linkedin.svg" alt="LinkedIn"></a></td>
+        <td> <a href="mailto:wilso692@purdue.edu"><img src="/imgs/envelope-solid.svg" alt="Email"></a></td>
+        <td> <a href="https://www.github.com/btrainwilson"><img src="/imgs/github.svg" alt="GitHub"></a></td>
     </tr>
 
 </table>
