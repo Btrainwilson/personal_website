@@ -1,3 +1,6 @@
+---
+title: Blake Wilson
+---
 <link href="/css/site.css" rel="stylesheet"></link>
 
 <div class="nav-table">
