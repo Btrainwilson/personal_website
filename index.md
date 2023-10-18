@@ -1,12 +1,12 @@
 ---
-title: Blake Wilson
+pagetitle: Blake Wilson
 ---
 <link href="/css/site.css" rel="stylesheet"></link>
 
 <div class="nav-table">
   <table> 
     <tr>
-      <td><a href="/index.html" class="active" >Blake Wilson</a></td>
+      <td><a href="/" class="active" >Blake Wilson</a></td>
       <td><a href="/pages/pubs/pubs.html">Publications</a></td>
     </tr>
   </table>

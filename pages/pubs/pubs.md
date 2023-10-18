@@ -1,5 +1,5 @@
 ---
-title: Publications
+pagetitle: Publications
 ---
 <link href="/css/site.css" rel="stylesheet"></link>
 
@@ -7,7 +7,7 @@ title: Publications
 <div class="nav-table">
   <table> 
     <tr>
-      <td><a href="/index.html">Blake Wilson</a></td>
+      <td><a href="/">Blake Wilson</a></td>
       <td><a href="/pages/pubs/pubs.html" class="active">Publications</a></td>
     </tr>
   </table>
