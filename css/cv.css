@@ -308,17 +308,6 @@ table td {
   font-size: 10pt;
 }
 
-table tbody tr td:first-child {
-  width: 50%;
-}
-
-table tbody tr td:nth-child(2) {
-  width: 20%;
-}
-
-table tbody tr td:nth-child(3) {
-  width: 10%;
-}
 
 .banner-table {
     width: 80%;

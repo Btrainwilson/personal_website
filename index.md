@@ -3,25 +3,65 @@
 <div class="nav-table">
   <table> 
     <tr>
-      <td><a href="/index.html">Blake Wilson</a></td>
-      <td><a href="/pages/cv/cv.html" class="active">CV</a></td>
+      <td><a href="/index.html" class="active" >Blake Wilson</a></td>
       <td><a href="/pages/pubs/pubs.html">Publications</a></td>
     </tr>
   </table>
 </div>
 
-<div style="text-align:center;">
+
+<div style="display: flex; margin-top: 5em;"> 
+
+  <div style="text-align: left; line-height:1em; flex: 60%;">
+
+  <div style="font-size:20pt;margin-left:.5em; margin-top:1em;margin-bottom:1em;">About Me</div>
+
+  <div style="margin-left:1.5em;">
+  I am a Quantum Machine Learning researcher and Ph.D. Candidate at Purdue University and the Quantum Science Center at Oak Ridge National Lab. I lead a team of machine learning and data science researchers through the Elmore Emerging Frontiers Center at Purdue to integrate machine learning into quantum device design, optimization algorithms, and experiments.
+</div>
+  </div>
+
+  <div style="text-align: center; height: auto; flex: 20%;border-radius:50%;">
+
+  <div style="text-align: center; width: 250px; height: auto; ">
+  <img src="/imgs/headshot.jpg" style="border-radius: 50%; height:10em; width:10em; margin: auto auto; object-fit: cover;"/>
+  </div>
+
+# Blake Wilson
+
+<table class="banner-table" style="width:40%;">
+    <tr>
+        <td><img src="/imgs/linkedin.svg" alt="LinkedIn"><a href="https://www.linkedin.com/in/blake-wilson-406a8256/"></a></td>
+        <td><img src="/imgs/envelope-solid.svg" alt="Email"> <a href="mailto:wilso692@purdue.edu"></a></td>
+        <td><img src="/imgs/github.svg" alt="GitHub"> <a href="https://www.github.com/btrainwilson"></a></td>
+    </tr>
+
+</table>
+
+  </div>
+
+</div>
+
+
+<div style="margin-top:2em;margin-bottom:2em;"/>
+
+# Our Collaborators
+
+<div style="margin-left:auto; margin-right:auto; margin-top:2em;">
+  <table style="width=100%; margin-top:1em;"> 
+    <tr>
+      <td style="padding:0;"><img class="center" src="/imgs/purdue_logo.jpg" style="height:4em; width:auto; border-radius: 3px;"/></td>
+      <td  style="padding:0;"><img class="center" src="/imgs/quera.png" style="height:4em; width:auto; padding:0; border-radius: 3px;"/></td>
+      <td style="padding:0;"><img class="center" src="/imgs/qsc.jpg" style="height:4em;width:auto;padding:0; border-radius: 3px;"/></td>
+      <td style="padding:0;"><img class="center" src="/imgs/microsoft.svg" style="height:4em;width:auto;padding:0; border-radius: 3px;"/></td>
+    </tr>
+  </table>
+</div>
+
+<div style="margin-top: 3em;text-align:center;">
 
 # Curriculum Vitae 
 
-<table class="banner-table">
-    <tr>
-        <td><img src="/imgs/linkedin.svg" alt="LinkedIn"> <a href="https://www.linkedin.com/in/blake-wilson-406a8256/">LinkedIn</a></td>
-        <td><img src="/imgs/envelope-solid.svg" alt="Email"> <a href="mailto:wilso692@purdue.edu">wilso692@purdue.edu</a></td>
-        <td><img src="/imgs/github.svg" alt="GitHub"> <a href="https://www.github.com/btrainwilson">GitHub</a></td>
-        <td><img src="/imgs/house-solid.svg" alt="Ventura, CA"> Ventura, CA</td>
-    </tr>
-</table>
 
 ## Skills
 - Python|PyTorch|C/C++|Julia|HTML|CSS|CUDA|HPC|Git|AWS|Linux|VLSI|CI/CD|Lambda|Neovim|Assembly
@@ -81,6 +121,7 @@
 - Wrote statistical, scientific software in Python and C++ for ARMv8 instruction coverage verification under various random number generation schemes for verifying our statistical research.
 
 ### Professional Activities
+<div class="activity-table">
 
 -------------------------------------------------- ------------------------ ---------------------
 Advisor                                            Qiskit Fall Fest         2023 - Present  
@@ -103,6 +144,8 @@ SURF Fellow                                        Purdue University        2017
 Resident Assistant                                 Purdue University        2020 - 2021    
 Research Assistant                                 Purdue University        2016 - 2019    
 -------------------------------------------------- ------------------------ ---------------------
+
+</div>
 
 
 ## Education 
@@ -202,6 +245,8 @@ Research Assistant                                 Purdue University        2016
 
 ### Leadership Positions 
 
+<div class="activity-table">
+
 -------------------------------------------------- ------------------------ ---------------------
 NanoMeta Machine Learning Team Lead                NanoML Team              2021 - Present
 Quantum Science Center Summer School Committee     Quantum Science Center   2021 - Present
@@ -220,6 +265,8 @@ First Robotics Software Team Lead                  Plainfield Earthquakers  2013
 Video Game Lead Developer                          Wired Vision Games       2012 - 2015   
 -------------------------------------------------- ------------------------ ---------------------
 
+</div>
+
 ##  Expertise
 
 - **Foundational Physics:** Quantum Information, General Relativity, Riemannian Geometry, Boltzmann sampling
@@ -233,9 +280,9 @@ Video Game Lead Developer                          Wired Vision Games       2012
  
 <div class="experience">
 
-------------------------- ---------------------------------- ------------------------ ----- ---------------
-**NanoMetaML**             Elmore Frontiers Center                                                2022-2023
-------------------------- ---------------------------------- ------------------------ ----- ---------------
+------------------------- ---------------------------------- ------------------------ ---------------
+**NanoMetaML**             Elmore Frontiers Center                                          2022-2023
+------------------------- ---------------------------------- ------------------------ ---------------
 
 </div>
 
@@ -257,9 +304,9 @@ Video Game Lead Developer                          Wired Vision Games       2012
 
 <div class="experience">
 
-------------------------- ---------------------------- ------------------------ ----- ---------------
-**AFTx04 Tapeout**         Purdue System-on-Chip Team      *West Lafayette, IN*             2018-2019
-------------------------- ---------------------------- ------------------------ ----- ---------------
+------------------------- ---------------------------- ------------------------ ---------------
+**AFTx04 Tapeout**         Purdue System-on-Chip Team      *West Lafayette, IN*       2018-2019
+------------------------- ---------------------------- ------------------------ ---------------
 
 </div>
 - Developed a Python tool to compile C code into RISCV machine code and onboard the machine code into a Verilog ROM module compatible with the SOC protocols.
@@ -267,6 +314,8 @@ Video Game Lead Developer                          Wired Vision Games       2012
 - Developed test vectors for verifying the SOC with NSWC Crane and MIT-Lincoln Lab engineers.
 
 ### Extended Software Project Experience
+
+<div class="activity-table">
 
 -------------------------------------------------------- ------------------------- ---------------------
 Web Development                                          NanoML Team               2023 - Present
@@ -295,9 +344,11 @@ Falling Balls Android Game                               Personal Hobby         
 
 **Fellowships**
 
+
 ----------------------------------------------------------- ---------------------- ----------------
 Summer Undergraduate Research Fellowship                    Purdue University      2017
 ----------------------------------------------------------- ---------------------- ----------------
+
 
 **Grants**
 
@@ -339,6 +390,7 @@ Summer Undergraduate Research Fellowship                    Vaishnavi Iyer      
 Best First Time Researcher Award                            David Czerwonki        SURF 2020
 Best First Time Researcher Award                            Rachel Zhang           SURF 2020
 ----------------------------------------------------------- ---------------------- ----------------
+
 
 <div style="margin-bottom:0.5em;line-height:100%">
 *These awards were given to my mentees for their incredible work. I place them on my C.V. because I'm heavily invested in their success and directly guided the work that contributed to their awards through editing, ideating, and spending hours of personal time mentoring their final submissions.
@@ -393,3 +445,5 @@ Travis Humble                                               humblets@ornl.gov
 Sheng-Tao Wang                                              swang@quera.com         617-291-2012
 Vladimir Shalaev                                            shalaev@purdue.edu      765-494-9855 
 ----------------------------------------------------------- ----------------------- ---------------
+
+</div>

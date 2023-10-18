@@ -4,7 +4,6 @@
   <table> 
     <tr>
       <td><a href="/index.html">Blake Wilson</a></td>
-      <td><a href="/pages/cv/cv.html" >CV</a></td>
       <td><a href="/pages/pubs/pubs.html" class="active">Publications</a></td>
     </tr>
   </table>

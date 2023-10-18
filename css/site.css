@@ -7,7 +7,7 @@ html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: Palatino;
+  font-family: Noto Sans, Helvetica, sans-serif;
   text-align: left;
 }
 
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #A51C30;
+  color: #444;
   text-align: center;
 }
 
@@ -240,6 +240,12 @@ img {
   vertical-align: middle;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 figure {
   display: block;
   text-align: center;
@@ -298,6 +304,7 @@ table {
 }
 
 .experience table tbody tr td:nth-child(4) {
+  font-weight: bold;
   width: 20%;
 }
 
@@ -324,9 +331,11 @@ table td {
     vertical-align: middle;
     margin-right: 3px;  /* Space between icon and text */
     margin-bottom: 3px;
+    padding: 1px;
 }
 .banner-table td {
   margin: 0 0;
+  padding: 0 0;
 }
 .banner-table td:first-child {
     width: auto;
@@ -358,6 +367,28 @@ table td .contact {
   text-align: center;
 }
 
+.placcard {
+  text-align: center;
+  margin: 1em auto;
+  padding: .5em;
+  width: 100%;
+  border-radius: .5em;
+  background: #f0f0f0;
+}
+
+.placcard h1 {
+  padding-top: .5em;
+}
+
+.placcard p {
+  margin: 0.5em 0.5em;
+}
+
+.nav-table {
+  border-bottom: 1px solid #ddd;
+
+}
+
 .nav-table table tr td a {
   vertical-align: center;
 }
@@ -374,4 +405,22 @@ table td .contact {
 .nav-table table tr td:nth-child(3){
   width:5%;
   vertical-align: middle;
+}
+
+
+.activity-table table tr td a {
+  vertical-align: center;
+}
+.activity-table table tr td:nth-child(1){
+  width:40%;
+  vertical-align: left;
+}
+
+.activity-table table tr td:nth-child(2){
+  width:20%;
+  vertical-align: left;
+}
+.activity-table table tr td:nth-child(3){
+  width:10%;
+  vertical-align: left;
 }
