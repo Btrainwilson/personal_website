@@ -5,9 +5,9 @@ icons_location := ~/web/icons
 server := 8008
 
 setup: 
-	ln -f -s $(css_location) ./css
-	ln -f -s $(js_location) ./js
-	ln -f -s $(icons_location) ./icons
+	cp -r $(css_location) ./css
+	cp -r $(js_location) ./js
+	cp -r $(icons_location) ./icons
 
 start:
 	@echo "Starting server..."
