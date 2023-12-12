@@ -9,6 +9,12 @@
 
   <h2> Fashion MNIST Demo </h2>
 
+  <h3>
+    Instructions:
+  </h3>
+  <p>
+    Click on a pixel in the canvas to generate a Fashion MNIST image through a VAE decoder hosted on the Triton Inference Server and AWS. Be patient (10s) after the first click because the CORS handshake takes a couple seconds with AWS. Click multiple times if needed. Explore the edges of the latent space to see larger differences in generated images.
+  </p>
     <div>
       <div style="display:flex; justify-content:space-around;">
       <canvas id="myCanvas"></canvas>
@@ -22,6 +28,8 @@
           <img src="/icons/aws.png" alt="Triton Inference Server" width="100" height="auto">
     </div>
     </div>
+
+
     <script src="/js/insert.js"></script>
 
 </body>
