@@ -520,4 +520,22 @@ table td .contact {
   font-style: normal;
 }
 
+.nav-table table tr td:nth-child(4){
+  width:5%;
+  vertical-align: middle;
+  font-style: normal;
+}
+
+
+
+canvas {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #76b900;
+}
+
+#mousePosition {
+    font-size: 20px;
+    margin-top: 20px;
+}
 
