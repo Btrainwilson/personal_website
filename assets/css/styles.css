@@ -262,6 +262,8 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .more-about h2 {
