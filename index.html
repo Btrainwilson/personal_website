@@ -1,17 +1,211 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/css/site-redo.css">
-<head>
-    <title>Home</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
-      <div class="snippet-container" data-snippet="/components/nav-bar.html"></div>
-    <div style="margin:0em 2em;">
-      <div class="snippet-container" data-snippet="/components/intro.html"></div>
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <title>Blake Wilson | Engineer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="snippet-container" data-snippet="/components/nav-bar.html"></div>
+
+    <!-- Hero Section -->
+<section class="hero" id="about">
+      <img
+        src="/assets/images/headshot.jpg"
+        alt="blake-wilson"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Quantum computing researcher and software engineer with a passion for
+          developing high-performance, open-source software. I am currently
+          pursuing a PhD in Electrical and Computer Engineering at Purdue
+          University. My research focuses on developing quantum algorithms for
+          solving problems in quantum chemistry and materials science. I am
+          also interested in developing software for high-performance computing
+          and machine learning.
+        </p>
+      </div>
+</section>
+
+    <!-- More about -->
+<section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        nostrum dolor minus, libero delectus praesentium perferendis
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+  <section class="skills" id="skills">
+      <div> <h2 class="skill-header">Expertise</h2> </div>
+
+      <div class="skills-wrapper">
+        <div >
+          <img
+            src="assets/icons/icons8-python-96.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-nvidia-144.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-c-100.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div>
+          <img
+            src="assets/icons/icons8-pytorch-144.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-atom-250.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-vim-96.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+<section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-container">
+        <a href="https://nanometaml.github.io/docs/build/html/polytensor/index.html" target="https://nanometaml.github.io/docs/build/html/polytensor/index.html" class="project-link">
+        <div class="project-container project-card">
+          <img
+            src="assets/icons/moonrabbit.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Polytensor</h3>
+          <p class="project-details">
+            Python package for CUDA-accelerated, autograd friendly polynomial evaluation.
+          </p>
+        </div>
+        </a>
+        <a href="#" target="_blank" class="project-link">
+        <div class="project-container project-card">
+            <img
+              src="assets/icons/mcmc.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">NanoMCMC</h3>
+            <p class="project-details">
+            Python package for CUDA-accelerated, autograd friendly MCMC.
+            </p>
+        </div>
+        </a>
+        <a href="" target="_blank" class="project-link">
+        <div class="project-container project-card">
+          <img
+            src="assets/icons/sr_sim.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Physics-Inspired AI</h3>
+          <p class="project-details">
+          </p>
+        </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <p> wilso692@purdue.edu </p>
+    </section>
+
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/linkedin.svg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/btrainwilson" target="_blank"
+        ><img
+          src="assets/icons/github.svg"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
     </div>
 
-    <script src="/js/insert.js"></script>
+    <!-- Scroll to top -->
 
-</body>
+    <!-- Footer section -->
+  <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://github.com/btrainwilson" target="_blank"
+          >Blake Wilson</a
+        >
+      </p>
+  </footer>
 
+    <!-- Website scripts -->
+    <script src="assets/js/insert.js"></script>
+
+  </body>
 </html>
+
