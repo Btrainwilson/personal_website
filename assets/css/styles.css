@@ -19,7 +19,8 @@
   --left-margin: .5rem;
   --left-margin2: 1.5rem;
   --bottom-margin: 0.5rem;
-  --bottom-margin-2: 1rem;
+  --bottom-margin2: 1rem;
+  --bottom-margin3: 2rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
@@ -56,8 +57,20 @@ p {
 
 }
 
+.introtitle {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: var(--normal-font);
+  margin-bottom: var(--bottom-margin3);
+}
+.introsubtitle {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: var(--normal-font);
+  margin-bottom: var(--bottom-margin3);
+}
 .experience {
-  margin-top: var(--bottom-margin-2);
+  margin-top: var(--bottom-margin2);
 }
 
 .experience table {
@@ -563,3 +576,4 @@ footer {
 .cv ul ul, ol ol {
   margin: .1em 0.2em;
 }
+
