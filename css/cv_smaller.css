@@ -7,9 +7,11 @@
   --heading-font: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
   --base-color: #222;
-
-  --accent-color: #008080;
-  --accent-color2: #004040;
+  --secondary-color: #8e6f3e;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --accent-color: #8e6f3e;
+  --accent-color2: #a17a69;
   --link-color: #0645ad;
   --margin1: 0.3em;
   --margin2: 0.5em;
