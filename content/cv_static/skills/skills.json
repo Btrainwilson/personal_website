@@ -1,0 +1,29 @@
+{
+  "engr" : {
+    "h1": [
+        "Python", "PyTorch", "C", "C++", "Braket", "Bloqade", "Qiskit", "Julia", "CUDA", 
+        "High-Performance Computing (HPC)", "Git", "AWS", "Linux", "VLSI", "AWS Lambda", 
+        "Neovim", "Assembly"
+      ],
+    "h2": [
+        "Quantum Computing", "Complexity Theory", "Numerical Methods", "Computational Vision", 
+        "Generative AI", "Optimization", "Computational Electromagnetics (CEM)", "Optics"
+      ],
+    "h3": [
+        "Public Speaking", "Grant Writing", "Publishing", "Diversity, Equity & Inclusion (DEI)", 
+        "Conference Organizing", "Open-Source Contribution", "Research Leadership"
+    ]},
+
+  "webdev" : {
+    "h1": [
+        "React", "Tailwind",  "Python", "PyTorch", "Triton", "C", "C++", "AWS", "Lambda", "Julia", "CUDA", "Git", "Linux", "Embedded Systems", "CLI-Tools",  "Neovim"
+      ],
+    "h2": [
+        "Deep Learning", "Generative AI", "Algorithms", "Inference", "Numerical Methods", "Computer Vision", 
+        "Software Engineering", "Optimization", "Computational Physics", "Optics"
+      ],
+    "h3": [
+        "Public Speaking", "Grant Writing", "Publishing", "DEI", 
+        "Conference Organizing", "Open-Source", "Research Leadership"
+    ]}
+}

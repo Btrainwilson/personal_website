@@ -1,0 +1,21 @@
+{
+  "phd" : {
+    "head" : [
+    "Doctorate of Philosophy",
+    "Electrical and Computer Engineering",
+    "Purdue University",
+    "2019 - 2024"
+    ],
+    "body" : "Advisors: <a target=\"_blank\" href=\"https://engineering.purdue.edu/~aeb/\">Alexandra Boltasseva</a>, <a target=\"_blank\" href=\"https://www.chem.purdue.edu/kais/\">Sabre Kais</a>, <a target=\"_blank\" href=\"https://engineering.purdue.edu/~shalaev/\">Vladimir Shalaev</a>, <a target=\"_blank\" href=\"https://nanohub.org/members/6059?_ga=2.215915991.1930921897.1640103943-1678915802.1579782013\">Alexander Kildishev</a>"
+  },
+  "bs" : {
+    "head" : [
+      "Bachelor of Science",
+      "Computer Engineering",
+      "Purdue University",
+      "2015 - 2019"
+    ],
+    "body" : "Advisor: <a target=\"_blank\" href=\"https://engineering.purdue.edu/~sundara2/\"> Shreyas Sundaram</a>"
+  }
+
+}

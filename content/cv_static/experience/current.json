@@ -1,0 +1,47 @@
+{
+  "quera" : {
+    "head" : [
+              "<a href=\"https://quera.com\" target=\"_blank\">Quantum Algorithms Researcher</a>",
+              "QuEra Computing",
+              "Harvard University / MIT",
+              "2022 - "
+            ],
+    "body" : [
+          ]
+         },
+  "ml" : {
+    "head" : [
+      "<a href=\"https://nanoml.org\" target=\"_blank\">Machine Learning Team Lead</a>",
+      "NanoML",
+      "Purdue University",
+      "2021 - "
+    ],
+    "body" : [
+
+    ]
+  },
+
+  "elmore" : {
+    "head" : [
+      "<a href=\"https://qscience.org\" target=\"_blank\">Algorithms Graduate Researcher</a>",
+      "Elmore Emerging Frontiers Center",
+      "Purdue University",
+      "2021 - "
+    ],
+    "body" : [
+
+    ]
+  },
+
+  "qsc" : {
+    "head" : [
+      "<a href=\"https://qscience.org\" target=\"_blank\">Quantum Algorithms Graduate Researcher</a>",
+      "Quantum Science Center",
+      "Purdue University and Oak Ridge National Lab",
+      "2020 - "
+    ],
+    "body" : [
+
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "leadership" : [
+      ["NanoMeta Machine Learning Team Lead", "NanoML Team", "2021 -"],
+      ["Quantum Science Center Summer School Committee", "Quantum Science Center", "2021 -"],
+      ["Quantum Science Center PGA Team Lead", "Quantum Science Center", "2021 - 2022"],
+      ["SURF Graduate Mentor", "Purdue SURF", "2022 -"],
+      ["Elmore Center Poster Session Committee", "Elmore Center", "2022"],
+      ["Graduate Teaching Assistant", "Purdue ECE", "2020 - 2021"],
+      ["SURF Graduate Assistant", "Purdue SURF", "2020"],
+      ["SURF Symposium Planning Committee", "Purdue SURF", "2020"],
+      ["Stories of Success: Fireside Chat Host", "Purdue ECE", "2019 - 2020"],
+      ["ECE Shop Graduate Assistant", "Purdue ECE", "2019 - 2020"],
+      ["Software Team Lead", "SoCET Team, Purdue", "2018 - 2019"],
+      ["Resident Assistant", "Purdue University", "2020 - 2021"],
+      ["Volunteer Robotics Teacher", "Muslim Learning Society", "2014"],
+      ["First Robotics Software Team Lead", "Plainfield Earthquakers", "2013 - 2015"],
+      ["Video Game Lead Developer", "Wired Vision Games", "2012 - 2015"]
+  ],
+  "fellowships": [
+    ["Summer Undergraduate Research Fellowship", "Purdue University", "2017"]
+  ],
+  "grants": [
+    [
+      "AWS Braket Research Grant",
+      "Amazon",
+      "2023 - 2024"
+    ],
+    [
+      "ACC 2022 Student Travel Grant",
+      "ACC 2022",
+      "2022"
+    ],
+    [
+      "Universities Space Research Association Quantum (Cycle 4)",
+      "NASA Ames Center",
+      "2020 – 2021"
+    ],
+    [
+      "Leadership Computing Facility D-Wave",
+      "Oak Ridge",
+      "2020"
+    ]
+  ],
+  "speaking" : [
+    [
+      "Academic Research Panel Member",
+      "Qiskit Fall Fest",
+      "2023"
+    ],
+    [
+      "Panel Moderator",
+      "QSC Summer School",
+      "2022 -"
+    ],
+    [
+      "American Controls Conference",
+      "ACC",
+      "2022"
+    ],
+    [
+      "SURF Graduate Mentor",
+      "Purdue University",
+      "2020 - 2023"
+    ],
+    [
+      "Fireside Chat Interviewer",
+      "Quantum Science Center",
+      "2021 - 2022"
+    ],
+    [
+      "Stories of Success Fireside Chat Host",
+      "Purdue University",
+      "2019 - 2020"
+    ]
+  ],
+  "competitions": [
+    [
+      "2nd Place National Rube Goldberg Competition",
+      "Purdue University",
+      "2016"
+    ],
+    [
+      "2nd Place Purdue First Robotics Regionals",
+      "Purdue University",
+      "2014"
+    ],
+    [
+      "3rd Place IUPUI Mathematics Competition",
+      "Indiana University Purdue University of Indianapolis",
+      "2014"
+    ]
+  ],
+
+  "extWork": [
+    [
+      "Committee Member",
+      "QSC Summer School",
+      "2022 -"
+    ],
+    [
+      "Quantum Algorithms Researcher",
+      "QuEra Computing",
+      "2022 - "
+    ],
+    [
+      "Graduate Research Assistant (Alexandra Boltasseva)",
+      "Purdue University",
+      "2019 -"
+    ],
+    [
+      "Advisor",
+      "Qiskit Fall Fest",
+      "2023"
+    ],
+    [
+      "Postdoctoral and Graduate Student Association Team Lead",
+      "Quantum Science Center",
+      "2021 - 2022"
+    ],
+    [
+      "Graduate Research Assistant (Shreyas Sundaram)",
+      "Purdue University",
+      "2021"
+    ],
+    [
+      "ECE Shop Graduate Assistant",
+      "Purdue University",
+      "2019 - 2020"
+    ],
+    [
+      "Software Engineer Intern",
+      "ARM",
+      "2019"
+    ],
+    [
+      "Software Team Lead",
+      "Purdue SoCET Team",
+      "2018 - 2019"
+    ],
+    [
+      "SURF Fellow",
+      "Purdue University",
+      "2017"
+    ],
+    [
+      "Undergraduate Research Assistant",
+      "Purdue University",
+      "2016 - 2019"
+    ]
+  ],
+  "refereeRoles": [
+    [
+      "Reviewer",
+      "Quantum",
+      "2022"
+    ],
+    [
+      "Reviewer",
+      "Nature Communications",
+      "2022"
+    ],
+    [
+      "Reviewer",
+      "Advanced Materials",
+      "2022"
+    ],
+    [
+      "Poster Session Committee",
+      "Elmore Center",
+      "2022"
+    ],
+    [
+      "Online Research Symposium",
+      "Purdue SURF",
+      "2020"
+    ]
+  ],
+  "teachingRoles": [
+    [
+      "First Time Researcher Fellowship Mentor",
+      "Purdue University",
+      "2022 - "
+    ],
+    [
+      "Graduate Mentor",
+      "Purdue SURF",
+      "2020 - "
+    ],
+    [
+      "Graduate Teaching Assistant (Data Structures and Algorithms)",
+      "Purdue University",
+      "2021"
+    ],
+    [
+      "Graduate Assistant",
+      "Purdue SURF",
+      "2020"
+    ],
+    [
+      "Graduate Teaching Assistant (Advanced C)",
+      "Purdue University",
+      "2020"
+    ],
+    [
+      "Resident Assistant",
+      "Purdue University",
+      "2016 - 2018"
+    ]
+  ],
+
+"extSWE": [
+    [
+      "Web Development",
+      "NanoML Team",
+      "2023 -"
+    ],
+    [
+      "Custom Arch Linux Setup",
+      "Linux",
+      "2022 -"
+    ],
+    [
+      "Neovim Personal Configuration",
+      "Linux",
+      "2022 -"
+    ],
+    [
+      "ClearML Server Management",
+      "Linux",
+      "2022 -"
+    ],
+    [
+      "Bloqade Rydberg Atom Simulations",
+      "QuEra Computing",
+      "2022 -"
+    ],
+    [
+      "NanoML Experiment Manager",
+      "Python",
+      "2023"
+    ],
+    [
+      "OpenAI Automatic Documentation Builder",
+      "OpenAI",
+      "2023"
+    ],
+    [
+      "OpenAI + Alexa API Integration",
+      "OpenAI",
+      "2022"
+    ],
+    [
+      "CEM Codes (Diffraction, Capacitor)",
+      "Purdue ECE",
+      "2021"
+    ],
+    [
+      "ECE Shop Sign (RGB LED + Web Server)",
+      "Purdue ECE",
+      "2019"
+    ],
+    [
+      "Bluetooth Controlled Powerstrip",
+      "Purdue ECE Embedded Sys.",
+      "2018"
+    ],
+    [
+      "32-bit MIPS Processor from scratch",
+      "Purdue ECE 437",
+      "2018"
+    ],
+    [
+      "VLSI Clock-Tree Synthesis Project",
+      "Purdue ECE 595",
+      "2018"
+    ],
+    [
+      "Ethernet Packet Sniffer",
+      "Purdue ECE 337",
+      "2018"
+    ],
+    [
+      "Multiple Pursuers and Sweep-Covers Enumeration",
+      "Purdue ECE Research",
+      "2017"
+    ],
+    [
+      "8-bit Breadboard PC - Synchronized Clock",
+      "Personal Hobby",
+      "2017"
+    ],
+    [
+      "Tanvas Image Processing and Material Analysis",
+      "Northwestern Hackathon",
+      "2016"
+    ],
+    [
+      "Zombie Video Game",
+      "Wired Vision Games",
+      "2014"
+    ],
+    [
+      "Falling Balls Android Game",
+      "Personal Hobby",
+      "2013"
+    ]
+  ],
+  "funding" : [
+    ["Quantum Science Center", "Oak Ridge", "2021 -"],
+    ["Purdue Elmore Emerging Frontiers Center", "Elmore Family", "2022 -"],
+    ["QuEra Computing", "Harvard/MIT", "2022"],
+    ["Air Force Research Lab", "AFRL", "2021"]
+  ],
+  "affiliations" : [
+    ["QuEra Computing", "Harvard/MIT", "2022 -"],
+    ["Quantum Science Center", "Oak Ridge National Lab", "2020 -"],
+    ["Elmore Emerging Frontiers Center", "Purdue University", "2020 -"],
+    ["Purdue Quantum Science and Engineering Institute", "Purdue University", "2019 -"],
+    ["Optica", "Optica", "2021 -"],
+    ["IEEE Computer Society", "IEEE", "2020 - 2021"],
+    ["Purdue Society of Professional Engineers", "Purdue University", "2015 – 2016"],
+    ["Wired Vision Games", "Game Development Group", "2011 – 2015"],
+    ["First Robotics", "NASA", "2013 – 2015"],
+    ["Freedom Chairs (Charity Wheelchair Repair)", "Indiana Non-Profit", "2013 – 2015"],
+    ["Project Lead the Way", "Indiana Non-Profit", "2011 – 2013"]
+  ],
+
+  "mentees" : [
+    [
+        "First Time Researcher Fellowship",
+        "Advay Welling",
+        "EURO 2024"
+    ],
+    [
+        "First Time Researcher Fellowship",
+        "Sarthak Tandon",
+        "EURO 2024"
+    ],
+    [
+        "First Time Researcher Fellowship",
+        "Geetika Chitturi",
+        "EURO 2024"
+    ],
+    [
+        "Qiskit Fall Fest Lead",
+        "Vaishnavi Iyer",
+        "2023"
+    ],
+    [
+        "Best Poster Presentation",
+        "Daksh Kumar Singh",
+        "SURF 2023"
+    ],
+    [
+        "Summer Undergraduate Research Fellowship",
+        "Daksh Kumar Singh",
+        "SURF 2023"
+    ],
+    [
+        "First Time Researcher Fellowship",
+        "Daksh Kumar Singh",
+        "EURO 2023"
+    ],
+    [
+        "First Time Researcher Fellowship",
+        "Michael Bezick",
+        "EURO 2023"
+    ],
+    [
+        "IBM Watson Quantum Summer Internship",
+        "Vaishnavi Iyer",
+        "2023"
+    ],
+    [
+        "Summer Undergraduate Research Fellowship",
+        "Vaishnavi Iyer",
+        "2022"
+    ],
+    [
+        "Best First Time Researcher Award",
+        "David Czerwonki",
+        "SURF 2020"
+    ],
+    [
+        "Best First Time Researcher Award",
+        "Rachel Zhang",
+        "SURF 2020"
+    ]
+],
+  "references" : [
+    ["Sabre Kais", "kais@purdue.edu", "765-494-5965"],
+    ["Alexandra Boltasseva", "aeb@purdue.edu", "765-494-0301"],
+    ["Travis Humble", "humblets@ornl.gov", ""],
+    ["Sheng-Tao Wang", "swang@quera.com", "617-291-2012"],
+    ["Vladimir Shalaev", "shalaev@purdue.edu", "765-494-9855"]
+],
+  "refsnophone" : [
+    ["Sabre Kais", "kais@purdue.edu", "765-494-5965"],
+    ["Alexandra Boltasseva", "aeb@purdue.edu", "765-494-0301"],
+    ["Travis Humble", "humblets@ornl.gov", ""],
+    ["Sheng-Tao Wang", "swang@quera.com", ""],
+    ["Vladimir Shalaev", "shalaev@purdue.edu", "765-494-9855"]
+]
+
+
+}

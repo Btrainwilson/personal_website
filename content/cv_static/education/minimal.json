@@ -1,0 +1,21 @@
+{
+  "phd" : {
+    "head" : [
+    "Doctorate of Philosophy",
+    "Electrical and Computer Engineering",
+    "Purdue University",
+    "2019 - 2024"
+    ],
+    "body" : ""
+  },
+  "bs" : {
+    "head" : [
+      "Bachelor of Science",
+      "Computer Engineering",
+      "Purdue University",
+      "2015 - 2019"
+    ],
+    "body" : ""
+  }
+
+}

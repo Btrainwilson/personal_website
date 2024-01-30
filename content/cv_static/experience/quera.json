@@ -1,0 +1,14 @@
+{
+  "head" : [
+            "Quantum Machine Learning on Neutral Atoms",
+            "Algorithms Researcher",
+            "QuEra Computing",
+            "2022"
+          ],
+  "body" : [
+            "Demonstrated quantum advantage on neutral atoms for machine learning sampling tasks by collaborating with MIT and Harvard scientists, setting research objectives for undergraduate researchers and writing quantum simulation software in Python and Julia.",
+            "Showcased QuEra's viability for quantum enhanced machine learning to shareholders leading to a patent in progress.",
+            "Verified early-access, open-source, flagship neutral atom simulation software <a href=\"https://www.quera.com/bloqade/\">Bloqade</a> on machine learning sampling tasks."
+         ]
+}
+
