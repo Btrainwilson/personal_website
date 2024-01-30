@@ -69,6 +69,12 @@ export function FullCV() {
       </>
       }
     />
+    <Resume.Divider title="Publications" children = {
+      <Resume.PubList items={cvJSON.pubs} />
+    }/>
+    <Resume.Divider title="Conferences" children = {
+      <Resume.PubList items={cvJSON.conferences} />
+    }/>
     <Resume.Divider title="Expertise" children = {
       <Resume.SkillsFromJSON json={skillsJSON.engr} />
     }/>

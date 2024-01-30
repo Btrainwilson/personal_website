@@ -140,3 +140,42 @@ export function AwardsTable(json) {
 
 }
 
+export function Citation({ citation }) {
+  if (citation.link) {
+    return (
+      <a href={citation.link} target="_blank" rel="noopener noreferrer">
+      <div className="w-full">
+        <p>
+          {citation.authors}, <strong>{citation.title}</strong>,{' '}
+          {citation.citation}
+        </p>
+      </div>
+      </a>
+    );
+  }
+    return (
+      <div className="w-full">
+        <p>
+          {citation.authors}, <strong>{citation.title}</strong>,{' '}
+          {citation.citation}
+        </p>
+      </div>
+    );
+}
+
+export function PubList({ items }) {
+
+  // Generating list items for each component
+  const listItems = items.map((component, index) => (
+    <li>
+      <Citation citation={component}/>
+    </li>
+
+  ));
+
+  return (
+    <ol class="ml-4 list-decimal">
+      {listItems}
+    </ol>
+  );
+}

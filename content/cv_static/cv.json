@@ -16,6 +16,115 @@
       ["First Robotics Software Team Lead", "Plainfield Earthquakers", "2013 - 2015"],
       ["Video Game Lead Developer", "Wired Vision Games", "2012 - 2015"]
   ],
+  "pubs" : [
+    {
+        "authors": "Wilson, B., Chen, Y., Singh, D.K., Ojha, R., Pottle, J., Bezick, M., Boltasseva, A., Shalaev, V., Kildishev, A.",
+        "title": "Authentication Through Residual, Attention-based Processing of Tampered Optical Responses",
+        "citation": "Submitted to CVPR 2024",
+        "link": ""
+    },
+    {
+        "authors": "Wilson, B., Dickey, E., Iyer, V., Kais, S.",
+        "title": "A Relative Church-Turing-Deutsch Thesis from Special Relativity and Undecidability",
+        "citation": "In Peer-Review, arXiv:2206.06419",
+        "link": "https://arxiv.org/pdf/2206.06419.pdf"
+    },
+    {
+        "authors": "Wilson, B., Hudack, J., Sundaram, S.",
+        "title": "Planning for Package Deliveries in Risky Environments Over Multiple Epochs",
+        "citation": "American Controls Conference 2022, arXiv:2110.09917",
+        "link": "https://arxiv.org/pdf/2110.09917.pdf"
+    },
+    {
+        "authors": "Wilson, B., Kudyshev, Z., Kildishev, A., Shalaev, V., Kais, S., Boltasseva, A.",
+        "title": "Machine Learning Framework for Quantum Sampling of Highly-Constrained, Continuous Optimization Problems",
+        "citation": "Applied Physics Reviews, 8, 041418, (Impact Factor: 19.16)",
+        "link": "https://arxiv.org/pdf/2105.02396.pdf",
+        "additional_info": "Impact Factor: 19.16"
+    },
+    {
+        "authors": "Wilson, B., Kudyshev, Z., Kildishev, A., Shalaev, V., Kais, S., Boltasseva, A.",
+        "title": "Metasurface Design Optimization via D-Wave based Sampling",
+        "citation": "CLEO 2021",
+        "link": ""
+    },
+    {
+        "authors": "Wilson, B.",
+        "title": "Bounds on Sweep-Covers by Raney Numbers",
+        "citation": "Preprint, arXiv:2009.08549",
+        "link": "https://arxiv.org/pdf/2009.08549"
+    },
+    {
+        "authors": "Wilson, B., Prasad, A., Sundaram, S.",
+        "title": "Multiple Pursuers Under Partial Information from Sensors",
+        "citation": "Preprint Revisement",
+        "link": "www.blakewilson.org/publications"
+    }
+],
+
+"conferences" : [
+    {
+        "authors": "Singh, D.K., Ojha, R., Chen, Y., Wilson, B., Bezick, M., Boltasseva, A., Shalaev, V., Kildishev, A.",
+        "title": "Machine Learning Realization of PUFS with Random Plasmonic Systems",
+        "citation": "CI + AI Cyberinfrastructure Symposium (2023)",
+        "link": ""
+    },
+    {
+        "authors": "Bezick, M., Wilson, B., Boltasseva, A.",
+        "title": "Latent Diffusion for Material Topology Sampling",
+        "citation": "CI + AI Cyberinfrastructure Symposium (2023)",
+        "link" : ""
+    },
+    {
+        "authors": "Wilson, B., Iyer, V., Shalaev, V., Kildishev, A., Kais, S., Boltasseva, A.",
+        "title": "Learning Van der Waals Potentials in Surrogate Rydberg Hamiltonians",
+        "citation": "3rd Annual Quantum Summer School (2023)",
+        "link" : ""
+    },
+    {
+        "authors": "Bezick, M., Wilson, B., Boltasseva, A.",
+        "title": "Denoising Diffusion for Material Topology Sampling",
+        "citation": "Spring Undergraduate Research citation (2023)",
+        "link" : ""
+    },
+    {
+        "authors": "Singh, D.K., Chen, Y., Wilson, B., Boltasseva, A., Shalaev, V., Kildishev, A.",
+        "title": "Plasmonic nanoparticle densities for physical verification of unclonable spectral tags in microelectronics packaging",
+        "citation": "Spring Undergraduate Research citation (2023)",
+        "link" : ""
+    },
+    {
+        "authors": "Wilson, B., Chen, Y., Shalaev, V., Kildishev, A., Kais, S., Boltasseva, A.",
+        "title": "Empowering Quantum 2.0 Devices and Approaches with Machine Learning (QTu2A.13)",
+        "citation": "Quantum 2.0 (2022)",
+        "link" : ""
+    },
+    {
+        "authors": "Wilson, B., Iyer, V., Shalaev, V., Kildishev, A., Kais, S., Boltasseva, A.",
+        "title": "Metasurface Compression Analysis via bVAE Reconstruction Loss",
+        "citation": "ECE Elmore Emerging Frontiers Center Poster Session (2022)",
+        "link" : ""
+    },
+    {
+        "authors": "Boltasseva, A., Shalaev, V., Wilson, B.",
+        "title": "Machine learning for photonics Active Photonic Platforms",
+        "citation": "2022, PC121960T",
+        "link" : ""
+    },
+    {
+        "authors": "Wilson, B., Mkhitaryan, V., Shalaev, V., Kildishev, A., Kais, S., Boltasseva, A.",
+        "title": "Source Shaping for Electromagnetic Optimization via Higher-Order Variational Quantum Algorithms",
+        "citation": "2nd Annual Quantum Summer School (2022)",
+        "link" : ""
+    },
+    {
+        "authors": "Wilson, B., Chen, Y., Shalaev, V., Kildishev, A., Kais, S., Boltasseva, A.",
+        "title": "Machine Learning for Nanophotonic Design and Quantum Measurements",
+        "citation": "Purdue Elmore Center (2021)",
+        "link" : ""
+
+    }
+  ],
   "fellowships": [
     ["Summer Undergraduate Research Fellowship", "Purdue University", "2017"]
   ],
