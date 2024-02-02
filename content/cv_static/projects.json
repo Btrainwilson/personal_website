@@ -1,0 +1,63 @@
+{
+  "cloud" : {
+      "head" : [
+        "<a href=\"https://blakeanthonywilson.com/pages/projects.html\">nanomcmc / polytensor</a>",
+        "CUDA Computational Physics",
+        "Purdue University",
+        "2022 - "
+      ],
+      "body" : [
+      "Identified a need for and developed GPU-accelerated computational <strong>PyTorch</strong> packages published on <strong>PyPi</strong> packages, <a target=\"_blank\" href=\"https://pypi.org/nanomcmc\">nanomcmc</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://pypi.org/polytensor\">polytensor</a> with <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">documentation in sphinx</a>. ",
+        "Packages support several collaborative team projects involving <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\">Markov Chain Monte Carlo</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">polynomial computations</a> leading to a 6000% speed-up over CPU-based algorithms."
+      ]
+  },
+  "mcmcpoly" : {
+      "head" : [
+        "<a href=\"https://blakeanthonywilson.com/pages/projects.html\">nanomcmc / polytensor</a>",
+        "CUDA Computational Physics",
+        "Purdue University",
+        "2022 - "
+      ],
+      "body" : [
+      "Identified a need for and led development of GPU-accelerated computational <strong>PyTorch</strong>  <a class=\"text-accent\" target=\"_blank\" href=\"https://pypi.org/project/nanomcmc\">nanomcmc</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://pypi.org/project/polytensor\">polytensor</a> packages published on <strong>PyPi</strong> with <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">documentation in sphinx</a>. ",
+        "Packages support several collaborative team projects involving <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\" class=\"text-accent\">Markov Chain Monte Carlo</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">polynomial computations</a> leading to a 6000% speed-up over CPU-based algorithms."
+      ]
+  },
+  "nanomcmc" : {
+      "head" : [
+        "<a href=\"https://nanometaml.github.io/mcmc\">nanomcmc</a>",
+        "CUDA-Accelerated Markov Chain Computation",
+        "Purdue University",
+        "2022 - "
+      ],
+      "body" : [
+        "Identified a need and led development of a GPU-accelerated computational <strong>PyTorch</strong> package for supporting several internal projects that require <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\">Markov Chain Monte Carlo</a>, leading to a 6000% speed-up over CPU-based algorithms. "
+      ]
+  },
+  "polytensor" : {
+      "head" : [
+        "<a href=\"https://btrainwilson.github.io/polytensor\">Polytensor</a>",
+        "CUDA-Accelerated Polynomial Computation",
+        "Purdue University",
+        "2022 - "
+      ],
+      "body" : [
+        "Led the development, testing, and research integration of a GPU-accelerated Polynomial computation <strong className=\"text-accent\">PyTorch</strong> package to support <a target=\"_blank\" href=\"https://btrainwilson.github.io/polytensor\">polynomial computation</a> for three energy model projects. ",
+      "Developed and tested a CUDA-accelerated polynomial computation backend, and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">documentation in sphinx</a>. "
+      
+      ]
+  },
+  "pauli" : {
+      "head" : [
+        "<a href=\"https://btrainwilson.github.io/pauli\">Pauli</a>",
+        "Pauli Algebra Interpreter and CLI Tool",
+        "Purdue University",
+        "2024 - "
+      ],
+      "body" : [
+        "Wrote a <strong>Python</strong> package for interpreting, parsing and simplifying Pauli algebra expressions using a <strong>CLI</strong> interpreter and Linux piping, allowing for the use of Pauli algebra in shell scripts.", 
+      "Developed and tested a tokenizer, recursive descent parser, symbolic Pauli algebra backend, and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/pauli\">documentation in sphinx</a>. "
+      ]
+  }
+
+}

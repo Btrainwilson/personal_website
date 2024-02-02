@@ -2,16 +2,16 @@ import Head from 'next/head';
 
 export function AwardEntry({award}) {
   return (
-    <table class="table-auto w-full">
+    <table className="hover:bg-gray-200 rounded-lg table-auto w-full">
       <thead>
           <tr>
-            <td class="font-bold  w-4/12">
+            <td className="font-bold  w-4/12">
               {award[0]}
             </td>
-            <td class="w-4/12">
+            <td className="w-4/12">
               {award[1]}
             </td>
-            <td class="w-4/12 text-right">
+            <td className="w-4/12 text-right">
               <pre>{award[2].padEnd(11, ' ')}</pre>
             </td>
           </tr>
@@ -23,19 +23,19 @@ export function AwardEntry({award}) {
 export function ExpHeading({ data, children }) {
   return (
   <div className="w-full mb-1">
-    <table className="table-auto w-full ">
+    <table className="table-auto w-full rounded-lg hover:bg-gray-200 ">
       <thead>
           <tr>
-            <td class="font-bold  w-3/12" dangerouslySetInnerHTML={{ __html: data[0] }}/>
-            <td class="w-3/12" dangerouslySetInnerHTML={{ __html: data[1] }}/>
-            <td class="w-3/12 italic" dangerouslySetInnerHTML={{ __html: data[2] }}/>
-            <td class="w-3/12 text-right"> 
-              <pre dangerouslySetInnerHTML={{ __html: data[3].padEnd(11, ' ') }}/>
+            <td key="0" className="font-bold text-accent w-3/12" dangerouslySetInnerHTML={{ __html: data[0] }}/>
+            <td key="1" className="w-3/12" dangerouslySetInnerHTML={{ __html: data[1] }}/>
+            <td key="2" className="w-3/12 italic" dangerouslySetInnerHTML={{ __html: data[2] }}/>
+            <td key="3" className="w-3/12 text-right"> 
+              <pre key="4" dangerouslySetInnerHTML={{ __html: data[3].padEnd(11, ' ') }}/>
             </td>
           </tr>
         </thead>
     </table>
-    <div className="ml-2">
+    <div className="ml-2 hover:bg-gray-200 rounded-lg">
       {children}
     </div>
   </div>
@@ -47,11 +47,11 @@ export function ListFromJSON({ items }) {
 
   // Generating list items for each component
   const listItems = items.map((component, index) => (
-    <li dangerouslySetInnerHTML={{ __html: component }}/>
+    <li key={index} dangerouslySetInnerHTML={{ __html: component }}/>
   ));
 
   return (
-    <ul class="list-disc ml-4">
+    <ul className="list-disc ml-4">
       {listItems}
     </ul>
   );
@@ -67,7 +67,7 @@ export function ExpFromJSON({data}) {
 export function Divider({title, children}) {
   return (
     <>
-    <h2 class="border-b mt-2 font-serif text-2xl">{title}</h2>
+    <h2 className="border-b text-accent mt-2 font-serif text-2xl">{title}</h2>
     <div className="ml-2 mt-2">
       {children}
     </div>
@@ -78,7 +78,7 @@ export function Divider({title, children}) {
 export function Header({name, title}) {
   return (
     <>
-    <h1 className="font-serif text-3xl">{name}</h1>
+    <h1 className="font-serif text-3xl mt-2">{name}</h1>
     <div className="border-b font-serif text-xl">
       {title}
     </div>
@@ -96,8 +96,7 @@ export function SkillsFromJSON(json) {
     let htmlResult = [];
     for (const key in json) {
       for (const k2 in json[key]) {
-        console.log(json[key][k2]);
-        htmlResult.push(<p> {joinItems(json[key][k2])} </p>);
+        htmlResult.push(<p key={k2} className="hover:bg-gray-200 rounded-lg"> {joinItems(json[key][k2])} </p>);
       }
     }
 
@@ -110,10 +109,9 @@ export function EducationFromJSON({json}) {
   let htmlResult = [];
 
   for (const key in json) {
-      console.log(json[key]);
       let award = json[key];
       let contentObj = <div dangerouslySetInnerHTML={{ __html: award.body }} />
-      htmlResult.push(<ExpHeading data = {award.head} children={contentObj} />);
+      htmlResult.push(<ExpHeading key={key} data = {award.head} children={contentObj} />);
   }
 
   return htmlResult;
@@ -129,12 +127,12 @@ export function AwardsTable(json) {
 
     for (const key in json) {
       for (const k2 in json[key]) {
-        htmlResult.push(<AwardEntry award={json[key][k2]}/>);
+        htmlResult.push(<AwardEntry key={k2} award={json[key][k2]}/>);
       }
     }
 
     return (
-    <div class="w-full">
+    <div className="w-full">
       {htmlResult}
     </div>);
 
@@ -143,18 +141,16 @@ export function AwardsTable(json) {
 export function Citation({ citation }) {
   if (citation.link) {
     return (
-      <a href={citation.link} target="_blank" rel="noopener noreferrer">
-      <div className="w-full">
-        <p>
-          {citation.authors}, <strong>{citation.title}</strong>,{' '}
-          {citation.citation}
+      <a  href={citation.link} target="_blank" rel="noopener noreferrer">
+      <div className="hover:bg-gray-200 rounded-lg w-full">
+        <p>{citation.authors}, <strong>{citation.title}</strong>,{' '}{citation.citation}
         </p>
       </div>
       </a>
     );
   }
     return (
-      <div className="w-full">
+      <div className="hover:bg-gray-200 rounded-lg w-full">
         <p>
           {citation.authors}, <strong>{citation.title}</strong>,{' '}
           {citation.citation}
@@ -167,15 +163,41 @@ export function PubList({ items }) {
 
   // Generating list items for each component
   const listItems = items.map((component, index) => (
-    <li>
+    <li key={index}>
       <Citation citation={component}/>
     </li>
-
   ));
 
   return (
-    <ol class="ml-4 list-decimal">
+    <ol className="ml-4 list-decimal">
       {listItems}
     </ol>
   );
+}
+
+export function Banner({items}) {
+    
+      let htmlResult = [];
+      for (const idx in items) {
+          htmlResult.push(
+          <div className="m-auto hover:bg-gray-200 text-accent rounded-lg pr-4 pl-4">
+            <a href={items[idx].link} target="_blank" rel="noopener noreferrer">
+              <div className="flex justify-content text-center w-auto m-auto max-h-14">
+                <img className="w-4 mr-2" src={items[idx].imgsrc} key={idx}/>
+                <p>{items[idx].body}</p>
+              </div>
+            </a>
+          </div>
+          );
+      }
+  
+    return (
+      <div className="flex justify-content w-full mt-2">
+      <div className=" content-center w-9/12 m-auto text-xl flex justify-content">
+        {htmlResult}
+      </div>
+      </div>
+      );
+
+
 }

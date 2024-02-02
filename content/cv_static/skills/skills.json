@@ -1,4 +1,27 @@
 {
+  "qml" : {
+    "h1": [
+        "Quantum Generative AI", "Algorithms",  "Neutral Atoms", "Quantum Optics",  "Complexity", "Quantum Optimization", "Computational E&M"
+      ],
+    "h2": [
+        "Cloud Quantum", "PyTorch", "Python", "CUDA", "Quantum-Enhanced MCMC", "AWS", "Julia", "C", "C++",  "Git", "Linux"
+      ],
+    "h3": [
+        "Open-Source Quantum Software", "Quantum Advocacy", "Grant Writing", "DEI", 
+        "Conference Organizing",  "Research Leadership"
+    ]},
+  "mlengr" : {
+    "h1": [
+        "PyTorch", "Python", "CUDA", "C", "C++", "React", "Tailwind", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", 
+        "Neovim", "Assembly"
+      ],
+    "h2": [
+        "Machine Learning", "Segmentation", "Computer Vision", "Generative AI", "Optimization", "Computational Physics"
+      ],
+    "h3": [
+        "Public Speaking", "Grant Writing", "Publishing", "Diversity, Equity & Inclusion (DEI)", 
+        "Conference Organizing", "Open-Source Contribution", "Research Leadership"
+    ]},
   "engr" : {
     "h1": [
         "Python", "PyTorch", "C", "C++", "Braket", "Bloqade", "Qiskit", "Julia", "CUDA", 

@@ -1,14 +1,22 @@
 import Head from 'next/head';
 import NavBar from '../components/nav-bar';
 import ProjectCard from '../components/projects';
-import HeroCard, {ImageBanner, SectionHeader} from '../components/web';
+import HeroCard, {ImageBanner, SectionHeader, HeroImage} from '../components/web';
 
-const projJSON = require('../content/projects/full.json');
+export async function getStaticProps() {
+  const projJSON = require('../content/projects/full.json');
+  return {
+    props: {
+      projJSON,
+    },
+  };
+}
 
-export default function Home () {
+export default function Home ({ projJSON }) {
   return (
     <>
     <NavBar /> 
+    <HeroImage title="Projects" image='images/wave-nodes.png' />
     
     <SectionHeader title="Machine Learning" />
     <div className="ml-4 mr-4 flex justify-center">

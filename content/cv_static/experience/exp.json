@@ -9,20 +9,19 @@
     "body" : [
       " Raised $27k in computing resources through grants, saved $40k in ML costs through server maintenance, and assisted in raising $200k+ for the <a href=\"https://www.ornl.gov/news/quantum-science-center-concludes-second-annual-summer-school-style\">QSC Summer Schools</a>. ",
       " Created quantum machine learning algorithms for designing meta-optical devices, achieving a 16200% quantum speed-up resulting in a major milestone for the <a href=\"https://pubs.aip.org/aip/sci/article/2021/53/531104/365746/Framework-maps-continuous-space-inverse-design\">Quantum Science Center</a> with two news articles and 18 citations <a href=\"https://engineering.purdue.edu/ECE/News/2022/ece-researchers-develop-quantum-machine-learning-algorithm-for-optimizing-arbitrary-engineering-problems\">[1]</a>.",
-      " Engineered and deployed GPU-accelerated computational physics packages to support multiple research projects with <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\">Markov Chain Monte Carlo</a> and <a target=\"_blank\" href=\"https://btrainwilson.github.io/polytensor\">polynomial computation</a>, leading to a 6000% speed-up over CPU-based algorithms. ",
       "Led 6 researchers to develop transformer ML algorithms for tackling the $75B counterfeit chip market leading to a 5,500,000% speed-up and 41% accuracy increase in the verification of semiconductor devices. Submitted to CVPR 2024. Patent in progress. "
     ]
   },
   "quera" : {
     "head" : [
-              "Quantum Machine Learning on Neutral Atoms",
+              "Quantum Machine Learning",
               "Algorithms Researcher",
               "QuEra Computing",
               "2022"
             ],
     "body" : [
-              "Demonstrated quantum advantage on neutral atoms for machine learning sampling tasks by collaborating with MIT and Harvard scientists, setting research objectives for undergraduate researchers and writing quantum simulation software in Python and Julia.",
-              "Showcased QuEra's viability for quantum enhanced machine learning to shareholders leading to a patent in progress.",
+              "Demonstrated quantum advantage on neutral atoms for generative AI sampling of photonic devices. Publication and patent are underway.",
+      " Set team research objectives and wrote quantum simulation software in Python and Julia to simulate Rydberg atom systems for analysis.",
               "Verified early-access, open-source, flagship neutral atom simulation software <a href=\"https://www.quera.com/bloqade/\">Bloqade</a> on machine learning sampling tasks."
           ]
          },

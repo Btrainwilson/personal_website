@@ -6,24 +6,39 @@ import React from 'react';
 import { NamedTitle } from '../content/cv/titles/academia';
 
 
-const skillsJSON = require('../content/cv_static/skills/skills.json');
-const educationJSON = require('../content/cv_static/education/advisors.json');
-const positionsJSON = require('../content/cv_static/experience/current.json');
-const expJSON = require('../content/cv_static/experience/exp.json');
-const cvJSON = require('../content/cv_static/cv.json');
+export async function getStaticProps() {
+
+  const skillsJSON = require('../content/cv_static/skills/skills.json');
+  const educationJSON = require('../content/cv_static/education/advisors.json');
+  const positionsJSON = require('../content/cv_static/experience/current.json');
+  const expJSON = require('../content/cv_static/experience/exp.json');
+  const cvJSON = require('../content/cv_static/cv.json');
+  const projJSON = require('../content/cv_static/projects.json');
+
+  return {
+    props: {
+      skillsJSON,
+      educationJSON,
+      positionsJSON,
+      expJSON,
+      cvJSON,
+      projJSON,
+    },
+  };
+}
 
 
 
-export default function Home() {
+export default function Home({ skillsJSON, educationJSON, positionsJSON, expJSON, cvJSON, projJSON }) {
 
   return (
     <div className="ml-4 mr-4">
-      <FullCV />
+      <FullCV skillsJSON={skillsJSON} educationJSON={educationJSON} positionsJSON={positionsJSON} expJSON={expJSON} cvJSON={cvJSON} projJSON={projJSON} />
     </div>
   );
 }
 
-export function ResumeMain() {
+export function ResumeMain({ skillsJSON, educationJSON, positionsJSON, expJSON, cvJSON, projJSON }) {
 
   return (
       <>
@@ -50,7 +65,7 @@ export function ResumeMain() {
   );
 }
 
-export function FullCV() {
+export function FullCV({ skillsJSON, educationJSON, positionsJSON, expJSON, cvJSON, projJSON }) {
   return (
     <>
     <NamedTitle />

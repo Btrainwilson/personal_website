@@ -1,4 +1,6 @@
 {
+  "summary_web" : "Machine Learning Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers, developing breakthroughs in statistical machine learning with applications in quantum algorithms. ",
+  "summary_qml" : "Quantum machine learning Ph.D. candidate and founder of the NanoML team developing machine learning algorithms for quantum generative AI and photonics. 12+ years of experience in software engineering and 8+ years in algorithm design and analysis.  ",
   "leadership" : [
       ["NanoMeta Machine Learning Team Lead", "NanoML Team", "2021 -"],
       ["Quantum Science Center Summer School Committee", "Quantum Science Center", "2021 -"],
@@ -509,7 +511,15 @@
     ["Travis Humble", "humblets@ornl.gov", ""],
     ["Sheng-Tao Wang", "swang@quera.com", ""],
     ["Vladimir Shalaev", "shalaev@purdue.edu", "765-494-9855"]
-]
+],
+  "banner" : [
+    { "imgsrc" : "icons/globe-solid.svg", "body" : "Research", "link": "https://www.blakeanthonywilson.com" },
+    { "imgsrc" : "icons/linkedin.svg", "body" : "LinkedIn", "link": "https://www.blakeanthonywilson.com" },
+    { "imgsrc" : "icons/envelope-solid.svg", "body" : "wilso692@purdue.edu", "link": "mailto:wilso692@purdue.edu" },
+    { "imgsrc" : "icons/github.svg", "body" : "Github", "link": "https://www.github.com/btrainwilson" },
+    { "imgsrc" : "icons/house-solid.svg", "body" : "Ventura, CA", "link": "https://www.blakeanthonywilson.com" }
+
+  ]
 
 
 }

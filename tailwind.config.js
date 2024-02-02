@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
+      'accent': '#121063',
       'boilermaker-gold': '#cfb991',
       'aged-gold': '#8e6f3e',
       'midnight': '#121063',
