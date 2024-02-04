@@ -18,10 +18,10 @@ export default function Home ({ projJSON }) {
   return (
       <NavBar children=
         <div>
-          <HeroImage title="GPU-Computation" image='images/atom-banner.png' />
+          <HeroImage title="Algorithm Design" image='images/atom-banner.png' />
           <div className="flex-col w-6/12 m-auto">
-            <img src="images/cuda.svg" className="m-auto h-72 mb-6 mt-6" />
-            <SectionHeader title="Simple Parallel Computations" />
+            <img src="images/drone.svg" className="m-auto h-72 mb-6 mt-6" />
+            <SectionHeader title="Drone Routing" />
             <p className="mb-10 mt-6">
             Fast machine learning and scientific computing are built on Single Instruction Multiple Data (SIMD) operations giving orders-of-magnitude speed-up. Nvidia's CUDA offers large parallel computation on NVIDIA GPUs. Simple operations are at the heart of polytensor and nanomcmc. 
             </p>

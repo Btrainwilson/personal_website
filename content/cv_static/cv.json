@@ -1,9 +1,10 @@
 {
+  "summary_op" : "Electrical engineering Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers developing breakthroughs in machine learning assisted optimization algorithms for applications in computational electromagnetics and quantum optics.",
   "summary_web" : "Machine Learning Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers, developing breakthroughs in statistical machine learning with applications in quantum algorithms. ",
   "summary_qml" : "Quantum machine learning Ph.D. candidate and founder of the NanoML team developing machine learning algorithms for quantum generative AI and photonics. 12+ years of experience in software engineering and 8+ years in algorithm design and analysis.  ",
   "leadership" : [
-      ["NanoMeta Machine Learning Team Lead", "NanoML Team", "2021 -"],
-      ["Quantum Science Center Summer School Committee", "Quantum Science Center", "2021 -"],
+      ["<a href=\"https://www.nanoml.org\" target=\"_blank\">NanoMeta Machine Learning Team Lead</a>", "NanoML Team", "2021 -"],
+      ["<a href=\"https://www.ornl.gov/news/quantum-science-center-members-teach-learn-third-summer-school\" target=\"_blank\">Quantum Science Center Summer School Committee</a>", "Quantum Science Center", "2021 -"],
       ["Quantum Science Center PGA Team Lead", "Quantum Science Center", "2021 - 2022"],
       ["SURF Graduate Mentor", "Purdue SURF", "2022 -"],
       ["Elmore Center Poster Session Committee", "Elmore Center", "2022"],
@@ -17,6 +18,34 @@
       ["Volunteer Robotics Teacher", "Muslim Learning Society", "2014"],
       ["First Robotics Software Team Lead", "Plainfield Earthquakers", "2013 - 2015"],
       ["Video Game Lead Developer", "Wired Vision Games", "2012 - 2015"]
+  ],
+  "pubsml" : [
+
+    {
+        "authors": "Wilson, B., Chen, Y., Singh, D.K., Ojha, R., Pottle, J., Bezick, M., Boltasseva, A., Shalaev, V., Kildishev, A.",
+        "title": "Authentication Through Residual, Attention-based Processing of Tampered Optical Responses",
+        "citation": "Submitted to CVPR 2024. Patent in Progress",
+        "link": ""
+    },
+    {
+        "authors": "Wilson, B., Hudack, J., Sundaram, S.",
+        "title": "Planning for Package Deliveries in Risky Environments Over Multiple Epochs",
+        "citation": "American Controls Conference 2022, arXiv:2110.09917",
+        "link": "https://arxiv.org/pdf/2110.09917.pdf"
+    },
+    {
+        "authors": "Wilson, B., Kudyshev, Z., Kildishev, A., Shalaev, V., Kais, S., Boltasseva, A.",
+        "title": "Machine Learning Framework for Quantum Sampling of Highly-Constrained, Continuous Optimization Problems",
+        "citation": "Applied Physics Reviews, 8, 041418, (Impact Factor: 19.16)",
+        "link": "https://arxiv.org/pdf/2105.02396.pdf",
+        "additional_info": "Impact Factor: 19.16"
+    },
+    {
+        "authors": "Wilson, B., Kudyshev, Z., Kildishev, A., Shalaev, V., Kais, S., Boltasseva, A.",
+        "title": "Metasurface Design Optimization via D-Wave based Sampling",
+        "citation": "CLEO 2021",
+        "link": ""
+    }
   ],
   "pubs" : [
     {
@@ -514,7 +543,7 @@
 ],
   "banner" : [
     { "imgsrc" : "icons/globe-solid.svg", "body" : "Research", "link": "https://www.blakeanthonywilson.com" },
-    { "imgsrc" : "icons/linkedin.svg", "body" : "LinkedIn", "link": "https://www.blakeanthonywilson.com" },
+    { "imgsrc" : "icons/linkedin.svg", "body" : "LinkedIn", "link": "https://www.linkedin.com/in/blake-wilson-406a8256/" },
     { "imgsrc" : "icons/envelope-solid.svg", "body" : "wilso692@purdue.edu", "link": "mailto:wilso692@purdue.edu" },
     { "imgsrc" : "icons/github.svg", "body" : "Github", "link": "https://www.github.com/btrainwilson" },
     { "imgsrc" : "icons/house-solid.svg", "body" : "Ventura, CA", "link": "https://www.blakeanthonywilson.com" }

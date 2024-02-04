@@ -18,7 +18,7 @@ export default function Home ({ projJSON }) {
   return (
       <NavBar children=
         <div>
-          <HeroCard title="Welcome to my website!" description="Blake Wilson | NanoML" subdescription="Ph.D. Candidate at Purdue University" button="Get in touch" image='images/hero_computer.jpg' link="mailto:wilso692@purdue.edu" />
+          <HeroCard title="Welcome to my website!" description="Blake Wilson | NanoML" subdescription="Ph.D. Candidate at Purdue University" button="Get in touch" image='images/computer-banner.png' link="mailto:wilso692@purdue.edu" />
           <SectionHeader title="Projects" />
           <div className="ml-4 mr-4 flex justify-center">
             <ProjectCard project={projJSON.polytensor} target="_blank"/>

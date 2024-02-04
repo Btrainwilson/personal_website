@@ -1,4 +1,27 @@
 {
+  "opengr" : {
+    "h1": [
+        "CEM", "FEM", "CUDA", "PyTorch", "Python",  "ARMv8", "C", "C++", "Cloud", "React", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", 
+        "Neovim", "Assembly"
+      ],
+    "h2": [
+        "Convex Optimization", "Topology Optimization", "Computer Vision", "Generative AI", "ML Optimization", "Computational Physics", "Research Leadership"
+      ],
+    "h3": [
+        "Public Speaking", "Grant Writing", "Publishing", "Diversity, Equity & Inclusion (DEI)", 
+        "Conference Organizing", "Open-Source Contribution"
+    ]},
+  "qse" : {
+    "h1": [
+        "C++", "numpy", "scipy", "sympy", "scientific computing",  "open source contributor", "quantum simulation", "linear algebra", "PyTorch", "research libraries"
+      ],
+    "h2": [
+         "AWS API", "quantum information", "Python", "CUDA", "quantum-enhanced MCMC", "AWS", "Julia", "C",   "Git", "Linux", "algorithms", "data structures"
+      ],
+    "h3": [
+        "cloud quantum", "open source quantum software", "quantum advocacy", "grant writing", "DEI", 
+        "conference organizing",  "research leadership"
+    ]},
   "qml" : {
     "h1": [
         "Quantum Generative AI", "Algorithms",  "Neutral Atoms", "Quantum Optics",  "Complexity", "Quantum Optimization", "Computational E&M"
@@ -12,15 +35,15 @@
     ]},
   "mlengr" : {
     "h1": [
-        "PyTorch", "Python", "CUDA", "C", "C++", "React", "Tailwind", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", 
+        "PyTorch", "Python", "CUDA", "ARMv8", "C", "C++", "React", "Tailwind", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", 
         "Neovim", "Assembly"
       ],
     "h2": [
-        "Machine Learning", "Segmentation", "Computer Vision", "Generative AI", "Optimization", "Computational Physics"
+        "Machine Learning", "Segmentation", "Computer Vision", "Generative AI", "Optimization", "Computational Physics", "Research Leadership"
       ],
     "h3": [
         "Public Speaking", "Grant Writing", "Publishing", "Diversity, Equity & Inclusion (DEI)", 
-        "Conference Organizing", "Open-Source Contribution", "Research Leadership"
+        "Conference Organizing", "Open-Source Contribution"
     ]},
   "engr" : {
     "h1": [

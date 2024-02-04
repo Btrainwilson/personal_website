@@ -5,9 +5,7 @@ export function AwardEntry({award}) {
     <table className="hover:bg-gray-200 rounded-lg table-auto w-full">
       <thead>
           <tr>
-            <td className="font-bold  w-4/12">
-              {award[0]}
-            </td>
+            <td className="font-bold  w-4/12" dangerouslySetInnerHTML={{ __html: award[0] }}/>
             <td className="w-4/12">
               {award[1]}
             </td>

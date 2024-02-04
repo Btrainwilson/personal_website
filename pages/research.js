@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      projJSON,
+      projJSON
     },
   };
 }
@@ -27,8 +27,7 @@ export default function Home ({ projJSON }) {
               <li><p>How do we apply artificial intelligence to physics and engineering?</p></li>
               <li><p>What are the limits of artificial intelligence?</p></li>
             </ol>
-            <p> The first question involves developing algorithms and software to solve problems which are difficult using classical methods. Two problems come up often; the first being that a lot of hard problems are already solved and so machine learning doesn't seem like a good idea. The second is that .
-            The second question involves defining artificial intelligence in some meaningful way, e.g., as a Turing machine. 
+            <p> The first question requires developing algorithms to solve problems that are difficult with classical methods, such as optimization, generative modeling, and design. The second question involves defining artificial intelligence in some meaningful way, e.g., as a Turing machine or learning problem.
           </p>
           <div className="flex justify-center">
             <ProjectCard project={projJSON.cuda} />

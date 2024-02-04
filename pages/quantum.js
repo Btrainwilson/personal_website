@@ -42,7 +42,7 @@ export default function Home({ skillsJSON, educationJSON, positionsJSON, expJSON
         </p>
       }/>
       <Resume.Divider title="Skills" children = {
-        <Resume.SkillsFromJSON json={skillsJSON.qml} />
+        <Resume.SkillsFromJSON json={skillsJSON.qse} />
       }/>
       <Resume.Divider title="Experience" children={
         <>
