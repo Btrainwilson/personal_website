@@ -20,14 +20,14 @@ export default function Home ({ projJSON }) {
         <div>
           <HeroImage title="Algorithm Design" image='images/atom-banner.png' />
           <div className="flex-col w-6/12 m-auto">
-            <img src="images/drone.svg" className="m-auto h-72 mb-6 mt-6" />
             <SectionHeader title="Drone Routing" />
+            <img src="images/drone.svg" className="m-auto h-72 mb-6 mt-6" />
             <p className="mb-10 mt-6">
-            Fast machine learning and scientific computing are built on Single Instruction Multiple Data (SIMD) operations giving orders-of-magnitude speed-up. Nvidia's CUDA offers large parallel computation on NVIDIA GPUs. Simple operations are at the heart of polytensor and nanomcmc. 
+
             </p>
         </div>
         <div className="ml-4 mr-4 flex justify-center">
-          <ProjectCard project={projJSON.polytensor} target="_blank"/>
+          <ProjectCard project={projJSON.risky} target="_blank"/>
           <ProjectCard project={projJSON.nanomcmc} target="_blank"/>
         </div>
         </div>
