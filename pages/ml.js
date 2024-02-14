@@ -38,11 +38,11 @@ export default function Home({ skillsJSON, educationJSON, positionsJSON, expJSON
       <Resume.Banner items={cvJSON.banner}/>
       <Resume.Divider title="Summary" children = {
         <p>
-          {cvJSON.summary_op}
+          {cvJSON.summary_web}
         </p>
       }/>
       <Resume.Divider title="Skills" children = {
-        <Resume.SkillsFromJSON json={skillsJSON.opengr} />
+        <Resume.SkillsFromJSON json={skillsJSON.mlai} />
       }/>
       <Resume.Divider title="Experience" children={
         <>

@@ -20,7 +20,7 @@
       ],
       "body" : [
       "Identified a need for and led development of GPU-accelerated computational <strong>PyTorch</strong>  <a class=\"text-accent\" target=\"_blank\" href=\"https://pypi.org/project/nanomcmc\">nanomcmc</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://pypi.org/project/polytensor\">polytensor</a> packages published on <strong>PyPi</strong> with <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">documentation in sphinx</a>. ",
-        "Packages support several collaborative team projects involving <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\" class=\"text-accent\">Markov Chain Monte Carlo</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">polynomial computations</a> leading to a 6000% speed-up over CPU-based algorithms."
+        "Packages support several collaborative team projects involving <a target=\"_blank\" href=\"https://nanometaml.github.io/mcmc\" class=\"text-accent\">Markov Chain Monte Carlo</a> and <a class=\"text-accent\" target=\"_blank\"href=\"https://btrainwilson.github.io/polytensor\">polynomial computations</a> leading to a 60x speed-up."
       ]
   },
   "nanomcmc" : {

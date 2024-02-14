@@ -178,7 +178,7 @@ export function Banner({items}) {
       let htmlResult = [];
       for (const idx in items) {
           htmlResult.push(
-          <div className="m-auto hover:bg-gray-200 text-accent rounded-lg pr-4 pl-4">
+          <div className="m-auto hover:bg-gray-200 text-accent rounded-lg ">
             <a href={items[idx].link} target="_blank" rel="noopener noreferrer">
               <div className="flex justify-content text-center w-auto m-auto max-h-14">
                 <img className="w-4 mr-2" src={items[idx].imgsrc} key={idx}/>

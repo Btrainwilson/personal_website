@@ -1,6 +1,6 @@
 {
   "summary_op" : "Electrical engineering Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers developing breakthroughs in machine learning assisted optimization algorithms for applications in computational electromagnetics and quantum optics.",
-  "summary_web" : "Machine Learning Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers, developing breakthroughs in statistical machine learning with applications in quantum algorithms. ",
+  "summary_web" : "Machine Learning Ph.D. candidate with 12+ years of experience in software engineering and 8+ years in algorithm design and analysis. Leader of a team of 16 data scientists and engineers, developing breakthroughs in machine learning with applications in generative AI, computer vision, and quantum. ",
   "summary_qml" : "Quantum machine learning Ph.D. candidate and founder of the NanoML team developing machine learning algorithms for quantum generative AI and photonics. 12+ years of experience in software engineering and 8+ years in algorithm design and analysis.  ",
   "leadership" : [
       ["<a href=\"https://www.nanoml.org\" target=\"_blank\">NanoMeta Machine Learning Team Lead</a>", "NanoML Team", "2021 -"],
@@ -542,11 +542,11 @@
     ["Vladimir Shalaev", "shalaev@purdue.edu", "765-494-9855"]
 ],
   "banner" : [
-    { "imgsrc" : "icons/globe-solid.svg", "body" : "Research", "link": "https://www.blakeanthonywilson.com" },
+    { "imgsrc" : "icons/globe-solid.svg", "body" : "Website", "link": "https://www.blakeanthonywilson.com" },
     { "imgsrc" : "icons/linkedin.svg", "body" : "LinkedIn", "link": "https://www.linkedin.com/in/blake-wilson-406a8256/" },
     { "imgsrc" : "icons/envelope-solid.svg", "body" : "wilso692@purdue.edu", "link": "mailto:wilso692@purdue.edu" },
     { "imgsrc" : "icons/github.svg", "body" : "Github", "link": "https://www.github.com/btrainwilson" },
-    { "imgsrc" : "icons/house-solid.svg", "body" : "Ventura, CA", "link": "https://www.blakeanthonywilson.com" }
+    { "imgsrc" : "icons/house-solid.svg", "body" : "Santa Barbara, CA", "link": "https://www.blakeanthonywilson.com" }
 
   ]
 

@@ -13,14 +13,13 @@
     ]},
   "qse" : {
     "h1": [
-        "C++", "numpy", "scipy", "sympy", "scientific computing",  "open source contributor", "quantum simulation", "linear algebra", "PyTorch", "research libraries"
+        "Python", "Julia", "Git", "C++", "RISC", "Cloud Quantum", "Linux", "device verification", "Very Large Scale Integration",  "neutral atoms", "quantum simulation"
       ],
     "h2": [
-         "AWS API", "quantum information", "Python", "CUDA", "quantum-enhanced MCMC", "AWS", "Julia", "C",   "Git", "Linux", "algorithms", "data structures"
+         "ML for quantum optical measurements", "MLops", "software project management", "unit testing", "CUDA/SIMD", "quantum-enhanced MCMC" 
       ],
     "h3": [
-        "cloud quantum", "open source quantum software", "quantum advocacy", "grant writing", "DEI", 
-        "conference organizing",  "research leadership"
+         "quantum start-ups", "open source software", "science advocacy", "grant writing", "DEI", "conference organizing",  "research leadership"
     ]},
   "qml" : {
     "h1": [
@@ -35,8 +34,7 @@
     ]},
   "mlengr" : {
     "h1": [
-        "PyTorch", "Python", "CUDA", "ARMv8", "C", "C++", "React", "Tailwind", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", 
-        "Neovim", "Assembly"
+        "PyTorch", "Python", "CUDA", "ARMv8", "C", "C++", "React", "Tailwind", "Braket", "Bloqade", "Julia",  "Cloud", "Git", "AWS", "Linux", "Lambda", "Neovim", "Assembly"
       ],
     "h2": [
         "Machine Learning", "Segmentation", "Computer Vision", "Generative AI", "Optimization", "Computational Physics", "Research Leadership"
@@ -71,5 +69,16 @@
     "h3": [
         "Public Speaking", "Grant Writing", "Publishing", "DEI", 
         "Conference Organizing", "Open-Source", "Research Leadership"
+    ]},
+  "mlai" : {
+    "h1": [
+        "PyTorch", "Python", "CUDA", "Triton", "C", "C++", "RISC", "React", "Tailwind", "Julia",  "Cloud", "Git", "AWS", "Linux", "Vim", "Assembly"
+      ],
+    "h2": [
+        "Generative AI", "Image Generation", "Segmentation", "NLP", "Transformers", "RNN", "Large Dataset Curation", "Computer Vision", "Research Leadership"
+      ],
+    "h3": [
+        "Public Speaking", "Grant Writing", "Publishing", "Diversity, Equity & Inclusion (DEI)", 
+        "Conference Organizing", "Open-Source Contribution"
     ]}
 }
