@@ -45,10 +45,6 @@ export default function Home({ skillsJSON, educationJSON, positionsJSON, expJSON
         Throughout my time leading this team, I have led software teams and publishing scientific software and am confident in bringing that leadership to Rigetti for developing quantum devices and software stacks for bleeding edge research. I would love to meet up and discuss my experience further. I'm happy to set up a virtual meet-up or phone call at your earliest convenience. Thank you for your consideration. 
         Sincerely, 
         Blake Wilson
-         </p>
-    </div>
-  );
-}
 
 Dear Hiring Manager,
 
@@ -61,3 +57,7 @@ Founding the NanoML team at Purdue, I direct a group of over ten professionals i
 I am eager to bring my expertise in quantum engineering and software development leadership to Rigetti. I look forward to discussing how my background aligns with your needs and exploring opportunities to contribute to your team.
 
 Thank you for considering my application. I am available for a virtual meeting or phone call at your convenience.
+         </p>
+    </div>
+  );
+}
