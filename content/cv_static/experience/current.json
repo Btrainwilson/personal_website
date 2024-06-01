@@ -1,10 +1,20 @@
 {
+  "quantinuum" : {
+    "head" : [
+              "<a href=\"https://quantinuum.com\" target=\"_blank\">Quantum Research Engineer</a>",
+              "Quantinuum",
+              "Oxford University",
+              "2024 - "
+            ],
+    "body" : [
+          ]
+         },
   "quera" : {
     "head" : [
               "<a href=\"https://quera.com\" target=\"_blank\">Quantum Algorithms Researcher</a>",
               "QuEra Computing",
               "Harvard University / MIT",
-              "2022 - "
+              "2022 - 2023"
             ],
     "body" : [
           ]
@@ -14,7 +24,7 @@
       "<a href=\"https://nanoml.org\" target=\"_blank\">Machine Learning Team Lead</a>",
       "NanoML",
       "Purdue University",
-      "2021 - "
+      "2021 - 2024"
     ],
     "body" : [
 
@@ -26,7 +36,7 @@
       "<a href=\"https://qscience.org\" target=\"_blank\">Algorithms Graduate Researcher</a>",
       "Elmore Emerging Frontiers Center",
       "Purdue University",
-      "2021 - "
+      "2021 - 2024"
     ],
     "body" : [
 
@@ -38,7 +48,7 @@
       "<a href=\"https://qscience.org\" target=\"_blank\">Quantum Algorithms Graduate Researcher</a>",
       "Quantum Science Center",
       "Purdue University and Oak Ridge National Lab",
-      "2020 - "
+      "2020 - 2024"
     ],
     "body" : [
 

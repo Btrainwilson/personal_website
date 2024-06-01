@@ -69,7 +69,7 @@ export function FullCV({ skillsJSON, educationJSON, positionsJSON, expJSON, cvJS
   return (
     <>
     <NamedTitle />
-    <Resume.Divider title="Current Positions" children = {
+    <Resume.Divider title="Recent Positions" children = {
       <Resume.EducationFromJSON json={positionsJSON} /> 
     }/>
     <Resume.Divider title="Education" children = {
