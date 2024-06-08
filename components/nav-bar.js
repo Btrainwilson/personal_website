@@ -17,9 +17,6 @@ export default function NavBar({children }) {
         </div>
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div className="text-sm lg:flex-grow">
-            <Link href="/research" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-              Research
-            </Link>
             <Link href="/projects" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Projects
             </Link>

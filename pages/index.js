@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import ProjectCard from '../components/projects';
 import NavBar from '../components/nav-bar';
-import HeroCard, {ImageBanner, SectionHeader} from '../components/web';
+import HeroCard, {AboutBanner, ImageBanners, ImageBanner, SectionHeader} from '../components/web';
 
 
 export async function getStaticProps() {
@@ -18,16 +18,22 @@ export default function Home ({ projJSON }) {
   return (
       <NavBar children=
         <div>
-          <HeroCard title="Welcome to my website!" description="Blake Wilson, Ph.D. | NanoML" subdescription="Quantum Research Engineer at Quantinuum" button="Get in touch" image='images/computer-banner.png' link="mailto:wilso692@purdue.edu" />
+          <HeroCard title="Welcome to my website!" description="Blake Wilson, Ph.D. | NanoML" subdescription="Quantum Research Engineer at Quantinuum" button="Get in touch" image='images/purple_oxford.jpg' link="mailto:wilso692@purdue.edu" />
+          <div className="m-auto w-3/4 items-center">
+          <AboutBanner/>
           <SectionHeader title="Projects" />
-          <div className="ml-4 mr-4 flex justify-center">
-            <ProjectCard project={projJSON.polytensor} target="_blank"/>
-            <ProjectCard project={projJSON.nanomcmc} target="_blank"/>
-            <ProjectCard project={projJSON.pauli} />
-          </div>
-          <SectionHeader title="Collaborations" />
-          <ImageBanner urls={['images/purdue_logo.jpg', 'images/qsc.jpg', 'images/quera.png', 'images/microsoft.svg']} />
+            <div className="ml-4 mr-4 flex justify-center">
+              <ProjectCard project={projJSON.polytensor} target="_blank"/>
+              <ProjectCard project={projJSON.nanomcmc} target="_blank"/>
+              <ProjectCard project={projJSON.pauli} />
+            </div>
+            <SectionHeader title="Collaborations" />
+            <div className="ml-2 mr-14">
+            <ImageBanners urls={['images/purdue_logo.jpg','images/quera.png', 'images/qsc.jpg' ]} />
+            <ImageBanners urls={['images/quantinuum.webp',  'images/microsoft.svg', ]} />
+            </div>
         </div>
+      </div>
       />
   );
 }
