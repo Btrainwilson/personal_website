@@ -80,7 +80,7 @@ export const AboutBanner = () => {
         className="w-56 h-auto rounded-lg mr-6 ml-6 object-cover"
       />
       <div className="max-w-xl">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-2">Blake Anthony, Ph.D.</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-2">Blake Wilson, Ph.D.</h2>
         <p className="text-gray-600 text-base leading-relaxed">
           Hello! I'm Blake Anthony Wilson. I analyze algorithms and build machine learning architectures for physics and engineering applications. I earned my Ph.D. from Purdue University in ECE working with Sabre Kais, Sasha Boltasseva, Vlad Shalaev and Alex Kildishev. I'm currently at Quantinuum in Oxford working on quantum machine learning and natural language processing algorithms. </p>
       </div>

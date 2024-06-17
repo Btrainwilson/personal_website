@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import ProjectCard from '../components/projects';
 import NavBar from '../components/nav-bar';
-import HeroCard, {AboutBanner, ImageBanners, ImageBanner, SectionHeader} from '../components/web';
+import HeroCard, {AboutBanner, ImageBanners, ImageBanner, SectionHeader, HeroImage} from '../components/web';
 
 
 export async function getStaticProps() {
@@ -18,7 +18,7 @@ export default function Home ({ projJSON }) {
   return (
       <NavBar children=
         <div>
-          <HeroCard title="Welcome to my website!" description="Blake Wilson, Ph.D. | NanoML" subdescription="Quantum Research Engineer at Quantinuum" button="Get in touch" image='images/purple_oxford.jpg' link="mailto:wilso692@purdue.edu" />
+          <HeroImage title="Welcome!" image='images/purple_oxford.jpg' />
           <div className="m-auto w-3/4 items-center">
           <AboutBanner/>
           <SectionHeader title="Projects" />
