@@ -3,7 +3,7 @@ import * as React from "react"
 
 import Hero from '@/components/about/hero';
 
-import './globals.css';
+import '../globals.css';
 import Footer from "@/components/footers/simple";
 import { AcademicTable } from "@/components/about/academiccard";
 const positions = [
