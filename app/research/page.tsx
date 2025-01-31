@@ -1,15 +1,15 @@
 "use client"
 import * as React from "react"
 
-import Hero from '@/components/about/hero';
-
 import '../globals.css';
 import Footer from "@/components/footers/simple";
 import { AcademicTable } from "@/components/about/academiccard";
+
+
 const positions = [
-  { title: 'Machine Learning Fram', institution: 'Quantinuum (Oxford)', date: '2024-Present' },
-  { title: 'Research Assistant', institution: 'Purdue University', date: '2019-2024' },
-  { title: 'Researcher', institution: 'QuEra Computing', date: '2022' },
+  { title: 'Machine Learning', institution: 'Quantinuum (Oxford)', date: '2024-Present', location: '', link: '', department: '' },
+  { title: 'Research Assistant', institution: 'Purdue University', date: '2019-2024', location: '', link: '', department: '' },
+  { title: 'Researcher', institution: 'QuEra Computing', date: '2022', location: '', link: '', department: '' },
 ];
 export default function Page() {
 

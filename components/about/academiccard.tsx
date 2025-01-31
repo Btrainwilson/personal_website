@@ -98,7 +98,7 @@ const AcademicTable: React.FC<AcademicCardProps> = ({ positions }) => {
                 ${index % 2 === 0 ? 'bg-base-100 ' : 'bg-base-200 '
             }`}
           >
-            <Heading title={positions[0]} subtitle={positions[1]} location={positions[2]} date={positions[3]} />
+            <Heading title={position.title} subtitle={position.subtitle} location={position.location} date={position.date} />
           </tr>
         ))}
       </tbody>
