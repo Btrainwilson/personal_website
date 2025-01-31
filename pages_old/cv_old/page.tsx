@@ -30,11 +30,11 @@ const positions = [
 ];
 
 const affiliations = [
-  { title: 'Oxford Theory Group', institution: 'Quantinuum', date: '2024-', link: 'https://www.quantinuum.com' },
-  { title: 'Quantum Science Institute', institution: 'Purdue University', date: '2020-2024', link: 'https://www.purdue.edu' },
-  { title: 'Oak Ridge National Laboratory', institution: 'Quantum Science Center', date: '2020-2024', link: 'https://www.qscience.com' },
-  { title: 'Quantum Applications and Algorithms', institution: 'QuEra Computing', date: '2022', link: 'https://www.purdue.edu' },
-  { title: 'Summer Undergraduate Research Fellow', institution: 'Purdue University', date: '2017', link: 'https://www.purdue.edu' },
+  { title: 'Oxford Theory Group', institution: 'Quantinuum', date: '2024-', link: 'https://www.quantinuum.com', department: "" },
+  { title: 'Quantum Science Institute', institution: 'Purdue University', date: '2020-2024', link: 'https://www.purdue.edu', department: "" },
+  { title: 'Oak Ridge National Laboratory', institution: 'Quantum Science Center', date: '2020-2024', link: 'https://www.qscience.com', department: "" },
+  { title: 'Quantum Applications and Algorithms', institution: 'QuEra Computing', date: '2022', link: 'https://www.purdue.edu', department: "" },
+  { title: 'Summer Undergraduate Research Fellow', institution: 'Purdue University', date: '2017', link: 'https://www.purdue.edu', department: "" },
 ];
 
 
@@ -86,7 +86,6 @@ export default function Page() {
             <div className="mt-8 text-2xl divider divider-base text-base-content"> Affiliations </div>
             <AcademicTable positions={affiliations} />
             <div className="mt-8 text-2xl divider divider-base text-base-content"> Relevant Publications </div>
-            <PubTable citations={cv} />
           </div>
         </Card>
       </div>

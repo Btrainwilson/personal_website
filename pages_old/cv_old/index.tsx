@@ -12,8 +12,7 @@ export const getStaticProps = (async (context: any) => {
 export default function Page({
   cv,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  console.log("HER")
-  return MainPage({ cv })
+  return MainPage()
 }
 
 

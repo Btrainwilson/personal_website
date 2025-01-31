@@ -122,7 +122,7 @@ export default function Page() {
         <div className="bg-base-300 p-2">
           {projects.map((proj: any, index: number) => (
             <div key={index} className="w-full">
-              <ProjectCardSide name={proj.name} description={proj.description} img={proj.img} tags={proj.tags} descriptionOnLeft={Boolean(index % 2)} />
+              <ProjectCardSide name={proj.name} description={proj.description} img={proj.img} descriptionOnLeft={Boolean(index % 2)} onClick={() => { console.log("Clicked") }} />
             </div>
           ))}
         </div>
